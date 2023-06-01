@@ -1,0 +1,208 @@
+nav ul{
+    margin-left: 30rem;
+    
+  }
+  
+  
+  .bg-dark {
+    background-color: #37517E !important;
+  }
+  @import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+  *{
+  font-family: 'Jost', sans-serif;
+  }
+  .nav-link{
+    color:#fff;
+    margin-left:20px;
+  }
+  .active{
+    color:#408EBE !important
+  }
+  .btnoutline-success {
+    border: solid #4762e4;
+    border-radius: 50px;
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+    font-weight: bold;
+    font-size: 14px;
+  }
+  .nav-link.getstarted :hover{
+    background-color: #47b2e4;
+    color:#fff;
+    font-weight: bold;
+  }
+  .navbar-brand{
+    font-size: 25px;
+    font-weight: bold;
+  }
+  #hero{
+    background-color: #37517E;
+  
+  }
+  .hero1{
+    font-size: 50px;
+    color: #fff;
+  }
+  .lead{
+    font-weight: bold;
+    color: #AFB9CB;
+  }
+  .hero-right {
+    position:relative;
+      animation-name: imghero;
+      animation-duration: 3s;
+      animation-iteration-count: infinite;
+      animation-timing-function: linear;
+  }
+  @keyframes imghero {
+    0%{top:0px}
+    50%{top:20px;}
+    100%{top:0px}
+  }
+  .hero-left .getStarted {
+    padding-left:30px;
+      padding-right:30px;
+      background-color: #47b2e4;
+      border:none;
+      border-radius: 50px;
+      font-weight: bold;
+      margin-top:10px;
+  }
+  .fa-brandsfa-google-play{
+    font-size: 40px;
+    color:#fff;
+  }
+  .iconright{
+    margin-left:40px;
+  }
+  .fa-brandsfa-google-play:hover{
+    color: #47b2e4;;
+  }
+  .watchVideo{
+    margin-left:20px;
+    text-decoration: none;
+    color:#fff;
+  }
+  .watchVideo:hover{
+    color:#fff;
+  }
+  #sponsers{
+    background-color: beige;
+  }
+  .img-sponser{
+    filter : grayscale(1);
+    transition: all 1s;
+    transition-timing-function: linear;
+  } 
+  .img-sponser:hover{
+    filter: grayscale(0);
+    transform: scale(.5);
+  }
+  /* -------------------------------------------------------------------------------- */
+  .aboutush1{
+    color:#37517E ;
+    position: relative;
+  }
+  .aboutush1::before{
+    content: '';
+    height: 3px;
+    width: 50px;
+    background-color: #47b2e4;
+    display: block;
+    position: absolute;
+    left: 48%;
+    top: 55px;
+    z-index: 1;
+  }
+  .aboutush1::after{
+    content: '';
+    height: 1px;
+    width: 150px;
+    background-color: #ccc;
+    display: block;
+    position: absolute;
+    left: 44%;
+    top: 55.5px;
+    z-index: 0;
+  }
+  .aboutus li{
+    list-style: none;
+  }
+  .aboutus ul{
+    padding-left: 0 !important;
+  }
+  .lichildz{
+    margin-left: 0px;
+  }
+  .fa-sharp-fa-solid-fa-check-double {
+    color:#47b2e4;
+    font-weight: bolder !important;
+  }
+  .btn-btn-outline-info-learnmore {
+    margin-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: 2px solid #4762e4;
+    color: #4762e4;
+  }
+  .btn-btn-outline-info-learnmore{
+    background-color: #47b2e4;
+    color:#fff;
+    border:1px solid #fff;
+  }
+  .services-1{
+    background-color: beige;
+  
+  }
+  .services_content-left-p1{
+    font-size: 40px;
+    color: #37517E;
+    font-weight: 700;
+  }
+  .services_content-left-p1 span{
+    font-weight: 300;
+  }
+  .services_content-left-p2{
+    font-weight: 300;
+    color: dimgrey;
+  }
+  .accordion-collapsable{
+    color: #030303;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: large;
+  }
+  .accordion-collapsable:hover{
+    color:#47b2e4
+  }
+  .accordion-collapsable span{
+    margin-right: 15px;
+    font-weight: 600;
+    color:#47b2e4;
+  }
+  .accordion-item{
+    margin-bottom: 20px;
+  }
+  .img-skills{
+    width: 50%;
+  }
+  .skills-content-right h1{
+    font-size: 40px;
+    color: #37517E;
+    font-weight: 700;
+  }
+  
+  .progress{
+    margin-bottom: 10px;
+    border-radius: 0px;
+    height: 14px;
+    background-color: #e8edf5;
+  }
+  .progress-bar{
+    background-color: #37517E;
+  }
+  .progress-left-right{
+    display: flex;
+    justify-content: space-between;
+  }
+  
